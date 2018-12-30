@@ -16,9 +16,15 @@ export class Functions {
     }
   }
 
-  printTasks() {
+  printTasks(args: string[]) {
     if (!isNaN(this.taskList[0].id)) {
-      this.taskList.forEach(task => console.log(task.toString()));
+      if (args[1] == 'done') {
+        this.taskList.forEach(task => task.isCompleted ? console.log(task.toString()) : 0);
+      } else if (args[1] == 'undone') {
+        this.taskList.forEach(task => task.isCompleted ? 0 : console.log(task.toString()));
+      } else {
+        this.taskList.forEach(task => console.log(task.toString()));
+      }
     } else {
       console.log('No todos for today! :)');
     }

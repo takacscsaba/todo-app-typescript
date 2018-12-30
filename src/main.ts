@@ -7,7 +7,7 @@ const functionsObj = new Functions();
 if (args.length == 0) {
   functionsObj.printInformations();
 } else if (args[0] == '-l') {
-  functionsObj.printTasks();
+  functionsObj.printTasks(args);
 } else if (args[0] == '-a') {
   functionsObj.addTask(args);
 } else if (args[0] == '-r') {
