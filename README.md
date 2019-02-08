@@ -10,6 +10,9 @@ Command line todo app written in TypeScript (original place found <a href="https
     <a href="https://github.com/takacscsaba/typescript-foundation">My repository for TypeScript tasks</a>
   </li>
   <li>
+    <a href="https://github.com/takacscsaba/csharp-foundation">My repository for C# tasks</a>
+  </li>
+  <li>
     <a href="https://github.com/takacscsaba/pokemon-app">Really simple PokemonApp</a>
   </li>
 </ul>
